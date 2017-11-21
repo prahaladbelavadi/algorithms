@@ -26,7 +26,7 @@ var val = x;
 let status = false;
 
 
-function linear-search(arr, num, val){
+function linearSearch(arr, num, val){
 for (var i; i < arr.length; i++ ){
     if (arr(i) == val){
       status = True;
