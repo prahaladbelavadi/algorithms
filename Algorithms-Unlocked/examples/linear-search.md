@@ -20,7 +20,7 @@ A. If AŒi D x, then set answer to the value of i.
 ### Examples:
 - Javascript
 ```
-var arr = [a,b,c,,d,e,g,h,i,j,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z];
+var arr = [a,b,c,d,e,f,g,h,i,j,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z];
 var num = arr.length;
 var val = x;
 let status = false;
