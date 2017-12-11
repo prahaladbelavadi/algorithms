@@ -24,8 +24,32 @@ When describing an algorithm to a fellow human being, an incomplete description 
 We could make this pseudocode even more precise by clearly describing the inputs and the outputs for the algorithm and by clarifying what we mean by instructions like "guess a number" and "stop." But this will do for now.
 ```
 
+var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+
+Suppose we want to know whether the number 67 is prime. If 67 is in the array, then it's prime.
+
+We might also want to know how many primes are smaller than 67. If we find the position of the number 67 in the array, we can use that to figure out how many smaller primes exist.
+
+The position of an element in an array is known as its index. Array indices start at 0 and count upwards. If an element is at index 0 then it is the first element in the array. If an element is at index 3, then it has 3 elements which come before it in the array.
+
+Once we know that the prime number 67 is at index 18, we can identify that it is a prime. We can also quickly identify that there are 18 elements which come before 67 in the array, meaning that there are 18 prime numbers smaller than 67.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```bash
-//js 
+// try js 
 
 let min = 1;
 let max = n;
@@ -51,6 +75,7 @@ min = guess;
   }
 }
 ```
+
 
 
 > [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
